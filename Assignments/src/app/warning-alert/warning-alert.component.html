@@ -1,3 +1,13 @@
 <p>
   Oops! This is warning!
 </p>
+<input
+ type="text"
+  class="form-control"
+  [(ngModel)]="username">
+  <h4>{{ username }}</h4>
+  <button
+   type="button"
+    class="btn btn-primary"
+     [disabled]="username === ''"
+      (click)="username = ''">Reset</button>
