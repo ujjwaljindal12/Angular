@@ -21,5 +21,9 @@ serverCreationStatus = 'No server was created!';
   onCreateServer() {
     this.serverCreationStatus = 'Server was created!';
   }
+  onUpdateServerName(event: any) {
+    console.log(event);
+  }
 
+   })
 }
