@@ -13,7 +13,9 @@ export class AppComponent {
     if (firedNumber % 2 === 0) {
       this.evenNumbers.push(firedNumber);
     } else {
+
       this.oddNumbers.push(firedNumber);
+
     }
   }
 }
